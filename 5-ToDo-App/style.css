@@ -1,0 +1,118 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    background-color: #FAE3C6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+}
+
+/* Message */
+#msg {
+    color: #F564A9;
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+/* Input Section */
+.input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.input input {
+    padding: 10px 15px;
+    width: 250px;
+    border: 2px solid #533B4D;
+    border-radius: 8px;
+    outline: none;
+    background-color: #FFF;
+    font-size: 1rem;
+    color: #533B4D;
+}
+
+.input button {
+    padding: 10px 18px;
+    background-color: #F564A9;
+    border: none;
+    border-radius: 50%;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.input button:hover {
+    background-color: #533B4D;
+}
+
+/* Output Section */
+.output ul {
+    list-style: none;
+    width: 100%;
+    max-width: 400px;
+    padding: 0;
+}
+
+.output li {
+    background-color: #FAA4BD;
+    padding: 12px 15px;
+    margin-bottom: 10px;
+    border-radius: 12px;
+    color: #533B4D;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.output li p {
+    flex: 1;
+    margin-right: 10px;
+    word-break: break-word;
+}
+
+button {
+    margin-left: 5px;
+    padding: 6px 10px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.8rem;
+    transition: background 0.3s;
+}
+
+button:nth-child(2) {
+    background-color: #4CAF50; /* Done - green */
+    color: white;
+}
+
+button:nth-child(2):hover {
+    background-color: #388E3C;
+}
+
+button:nth-child(3) {
+    background-color: #f44336; /* Remove - red */
+    color: white;
+}
+
+button:nth-child(3):hover {
+    background-color: #d32f2f;
+}
+
+/* Strike style */
+.strike {
+    text-decoration: line-through;
+    opacity: 0.6;
+}
